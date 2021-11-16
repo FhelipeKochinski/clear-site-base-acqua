@@ -1,0 +1,129 @@
+@font-face {
+    font-family: 'FontAwesome';
+    src: url('../fonts/fontawesome.woff?v=4.7.0') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.fa-pulse {
+    -webkit-animation: fa-spin 1s infinite steps(8);
+    animation: fa-spin 1s infinite steps(8);
+}
+
+.fa-3x {
+    font-size: 3em;
+}
+
+.fa-fw {
+    width: 1.28571429em;
+    text-align: center;
+}
+
+@-webkit-keyframes fa-spin {
+    0% {
+      -webkit-transform: rotate(0deg);
+      transform: rotate(0deg);
+    }
+    100% {
+      -webkit-transform: rotate(359deg);
+      transform: rotate(359deg);
+    }
+}
+
+@keyframes fa-spin {
+    0% {
+      -webkit-transform: rotate(0deg);
+      transform: rotate(0deg);
+    }
+    100% {
+      -webkit-transform: rotate(359deg);
+      transform: rotate(359deg);
+    }
+}
+
+/* Ícones */
+
+.fa-plus-circle:before { 
+    content: "\f055"; 
+}
+
+.fa-envelope-o:before { 
+    content: "\f003"; 
+}
+
+.fa-phone:before { 
+    content: "\f095"; 
+}
+
+.fa-whatsapp:before { 
+    content: "\f232"; 
+}
+
+.fa-bars:before { 
+    content: "\f0c9"; 
+}
+
+.fa-shopping-cart:before { 
+    content: "\f07a"; 
+}
+
+.fa-search:before { 
+    content: "\f002"; 
+}
+
+.fa-arrow-circle-left:before { 
+    content: "\f0a8"; 
+}
+
+.fa-arrow-circle-right:before { 
+    content: "\f0a9"; 
+}
+
+.fa-angle-up:before { 
+    content: "\f106"; 
+}
+
+.fa-search-plus:before { 
+    content: "\f00e"; 
+}
+
+.fa-twitter:before { 
+    content: "\f099"; 
+}
+
+.fa-linkedin:before { 
+    content: "\f0e1"; 
+}
+
+.fa-facebook-square:before { 
+    content: "\f082"; 
+}
+
+.fa-instagram:before { 
+    content: "\f16d"; 
+}
+
+.fa-youtube-play:before { 
+    content: "\f16a"; 
+}
+
+.fa-angle-double-right:before { 
+    content: "\f101"; 
+}
+
+.fa-angle-double-left:before { 
+    content: "\f100"; 
+}
+
+.fa-spinner:before {
+    content: "\f110";
+}

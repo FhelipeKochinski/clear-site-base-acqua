@@ -1,0 +1,13 @@
+/* CSS Document */
+
+#page404 {
+	float: left;
+	width: 100%;
+	text-align: center;
+	padding: 100px 0;
+}
+
+#page404 i {
+	margin: 30px auto;
+	color: #1F52A3;
+}
